@@ -30,7 +30,7 @@ public class Program {
 				if (mat[i][j] < 0) {//filtrandos os numeros negativos
 					count += 1;
 				}
-			}
+			}//
 		}
 		System.out.print(count);
 
