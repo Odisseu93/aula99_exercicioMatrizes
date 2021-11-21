@@ -23,6 +23,16 @@ public class Program {
 	 for (int i=1; i<n; i++){
 			 System.out.print(" " + mat[i][i]);
 	 }
+	 for (int i=0; i<n; i++) {//linhas
+			for(int j=0; j<n; j++) {//colunas
+				mat[i][j] = sc.nextInt();
+			}
+		}
+		System.out.println("Main diagonal: ");
+		System.out.print(mat[0][0]);
+	 for (int i=1; i<n; i++){//filtrandos os numeros negativos
+			 System.out.print(" " + mat[i][i]);
+	 }
 	}
 	
 }
