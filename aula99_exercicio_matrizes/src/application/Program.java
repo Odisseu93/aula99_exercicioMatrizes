@@ -18,6 +18,11 @@ public class Program {
 				mat[i][j] = sc.nextInt();
 			}
 		}
+		System.out.println("Main diagonal: ");
+		System.out.print(mat[0][0]);
+	 for (int i=1; i<n; i++){
+			 System.out.print(" " + mat[i][i]);
+	 }
 	}
-
+	
 }
